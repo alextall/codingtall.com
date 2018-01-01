@@ -1,0 +1,66 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: Coding Tall
+email: alex.dubois@mac.com
+copyright: © 2018 Alex Du Bois
+description: >
+  Weekly-ish musings on development.
+baseurl: ""
+url: "https://codingtall.com"
+twitter_username: alextall
+github_username:  alextall
+
+# Build settings
+markdown: kramdown
+
+author:
+  name: Alex Du Bois
+  email: alex.dubois@mac.com
+  social:
+    github: alextall
+    twitter: alextall
+    email: mailto:alex.dubois@mac.com
+
+hydejack:
+  no_google_fonts: true
+font:         "'PT Sans', Helvetica, Arial, sans-serif"
+font_heading: "'PT Sans', Helvetica, Arial, sans-serif"
+accent_color: '#268bd2'
+accent_image:
+  background: '#343434'
+  overlay:    false
+
+collections:
+  featured_tags:
+    permalink:         /tag/:name/
+    output:            true
+
+plugins:
+  - jekyll-feed
+  - jekyll-avatar
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
