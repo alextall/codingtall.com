@@ -20,7 +20,7 @@ That brings us to today. Or rather a couple weeks ago. I decided I wanted to pus
 
 I just finished the videos about an hour ago, but I'm already looking around for tiny projects to get started on. My first project was obvious, though. I always start off by making a mushroom like those from the Mario game series. This one is based on the mushrooms from [Mario Kart 8](https://www.mariowiki.com/File:MushroomMarioKart8.png).
 
-![Mushroom]({{ "/assets/2018-01-07-Returning-to-Maya/Mushroom-maya.png"}})
+![Mushroom]({{ "/assets/2018-01-07-Returning-to-Maya/Mushroom-Maya.png"}})
 
 ## Why 2018 will be different
 
